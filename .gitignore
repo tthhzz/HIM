@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated runtime data
+runtime/
+logs/
+cached_memories*/
+results/runs/
+
+# Local archival material not selected for the public repository
+/HIM.pdf
+/Figure/
+/result qwen2.5 3b/
+/results_*.json
+/ablation_experiments.md
+/case_study*.py
+/test_cuda_matmul.py
+/test_siliconflow_qwen.py

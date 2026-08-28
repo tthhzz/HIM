@@ -1,0 +1,35 @@
+table,method,split,questions,category,f1,bleu1,rouge_l,artifact
+main,LoCoMo,not_archived,,Multi-hop,4.61,4.29,,
+main,LoCoMo,not_archived,,Temporal,3.11,2.71,,
+main,LoCoMo,not_archived,,Open-domain,4.55,5.97,,
+main,LoCoMo,not_archived,,Single-hop,7.03,5.69,,
+main,LoCoMo,not_archived,,Adversarial,16.95,14.81,,
+main,ReadAgent,not_archived,,Multi-hop,2.47,1.78,,
+main,ReadAgent,not_archived,,Temporal,3.01,3.01,,
+main,ReadAgent,not_archived,,Open-domain,5.57,5.22,,
+main,ReadAgent,not_archived,,Single-hop,3.25,2.51,,
+main,ReadAgent,not_archived,,Adversarial,15.78,14.01,,
+main,MemoryBank,not_archived,,Multi-hop,3.60,3.39,,
+main,MemoryBank,not_archived,,Temporal,1.72,1.97,,
+main,MemoryBank,not_archived,,Open-domain,6.63,6.58,,
+main,MemoryBank,not_archived,,Single-hop,4.11,3.32,,
+main,MemoryBank,not_archived,,Adversarial,13.07,10.30,,
+main,MemGPT,not_archived,,Multi-hop,5.07,4.31,,
+main,MemGPT,not_archived,,Temporal,2.94,2.95,,
+main,MemGPT,not_archived,,Open-domain,7.04,7.10,,
+main,MemGPT,not_archived,,Single-hop,7.26,5.52,,
+main,MemGPT,not_archived,,Adversarial,14.47,12.39,,
+main,HIM,10_percent,199,Multi-hop,14.21,9.91,15.22,results/main/him_qwen2.5-3b_10pct.json
+main,HIM,10_percent,199,Temporal,24.64,18.33,25.05,results/main/him_qwen2.5-3b_10pct.json
+main,HIM,10_percent,199,Open-domain,5.45,9.06,8.39,results/main/him_qwen2.5-3b_10pct.json
+main,HIM,10_percent,199,Single-hop,22.32,18.18,24.52,results/main/him_qwen2.5-3b_10pct.json
+main,HIM,10_percent,199,Adversarial,39.98,37.23,40.17,results/main/him_qwen2.5-3b_10pct.json
+ablation,HIM w/o Encoding,table_only,,Multi-hop,10.64,8.75,7.96,
+ablation,HIM w/o Encoding,table_only,,Temporal,22.61,15.74,22.15,
+ablation,HIM w/o Encoding,table_only,,Adversarial,33.14,31.16,33.05,
+ablation,HIM w/o Consolidation,table_only,,Multi-hop,12.40,10.77,10.28,
+ablation,HIM w/o Consolidation,table_only,,Temporal,22.37,16.69,22.89,
+ablation,HIM w/o Consolidation,table_only,,Adversarial,30.88,27.64,31.33,
+ablation,HIM Full,10_percent,199,Multi-hop,14.21,9.91,15.22,results/main/him_qwen2.5-3b_10pct.json
+ablation,HIM Full,10_percent,199,Temporal,24.64,18.33,25.05,results/main/him_qwen2.5-3b_10pct.json
+ablation,HIM Full,10_percent,199,Adversarial,39.98,37.23,40.17,results/main/him_qwen2.5-3b_10pct.json
